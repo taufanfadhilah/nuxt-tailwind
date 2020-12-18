@@ -3,9 +3,10 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
-    colors: {
-      trueGray: colors.trueGray,
+    extend: {
+      colors: {
+        trueGray: colors.trueGray,
+      },
     },
   },
   variants: {
