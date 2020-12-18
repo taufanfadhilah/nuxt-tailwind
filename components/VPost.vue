@@ -3,7 +3,7 @@
     <v-avatar class="mr-3 h-10 w-10" :src="avatar" />
     <div>
       <div class="flex flex-row relative">
-        <p class="font-bold">{{ name }}</p>
+        <p class="font-bold tracking-wider">{{ name }}</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -19,7 +19,7 @@
           />
         </svg>
       </div>
-      <div class="flex flex-row">
+      <div class="flex flex-row mb-1">
         <p class="text-xs text-gray-400 mr-2">Just Now &middot;</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@
         </svg>
       </div>
       <div>
-        <p class="text-gray-600 font-medium">
+        <p class="text-gray-600 font-medium tracking-wide">
           {{ content }}
         </p>
       </div>
