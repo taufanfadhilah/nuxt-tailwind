@@ -1,9 +1,9 @@
 <template>
   <div class="flex mb-4">
-    <v-avatar class="mr-3 h-10 w-10" />
+    <v-avatar class="mr-3 h-10 w-10" :src="avatar" />
     <div>
       <div class="flex flex-row relative">
-        <p class="font-bold">Badminton Indonesia</p>
+        <p class="font-bold">{{ name }}</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -38,8 +38,7 @@
       </div>
       <div>
         <p class="text-gray-600 font-medium">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio tempore
-          quidem vero debitis rem repellat, quae quibusdam ratione quas.
+          {{ content }}
         </p>
       </div>
     </div>
@@ -50,5 +49,19 @@
 import VAvatar from './VAvatar.vue'
 export default {
   components: { VAvatar },
+  props: {
+    name: {
+      type: String,
+      required: true,
+    },
+    avatar: {
+      type: String,
+      default: null,
+    },
+    content: {
+      type: String,
+      default: null,
+    },
+  },
 }
 </script>

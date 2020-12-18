@@ -1,8 +1,11 @@
 <template>
   <img
-    src="https://ui-avatars.com/api/?name=Taufan Fadhilah&background=random"
+    :src="src"
     alt="avatar ui"
-    :class="'rounded-full ' + (isBordered && 'border-4 border-blue-400')"
+    :class="
+      'rounded-full object-center object-cover ' +
+      (isBordered && 'border-4 border-blue-400')
+    "
     :width="width"
     :height="height"
   />
@@ -23,8 +26,10 @@ export default {
       type: Number,
       default: 50,
     },
+    src: {
+      type: String,
+      default: 'https://ui-avatars.com/api/?name=Face Book&background=random',
+    },
   },
 }
 </script>
-
-<style></style>
