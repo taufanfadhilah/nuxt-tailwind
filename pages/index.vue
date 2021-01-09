@@ -12,12 +12,72 @@
     </div>
     <!-- END HEADER -->
     <!-- START STORIES -->
-    <div class="inline-flex my-5 pb-5 border-b-2">
+    <div class="flex overflow-scroll w-full my-5 pb-5 border-b-2">
       <v-story-add />
       <v-story
         :name="'Do San'"
         :avatar="'https://ui-avatars.com/api/?name=Do San&background=random'"
         :image="'https://img.harianjogja.com/posts/2019/07/12/1005192/whatsapp-image-2019-07-12-at-18.58.34.jpeg'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
+      />
+      <v-story
+        :name="'In Jae'"
+        :avatar="'https://ui-avatars.com/api/?name=In Jae&background=random'"
+        :image="'https://atourin.com/images/destination/jakarta/taman-impian-jaya-ancol-profile1584761151.png'"
       />
       <v-story
         :name="'In Jae'"

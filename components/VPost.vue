@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mb-4">
+  <div class="flex mb-4 shadow-1 py-px20 px-px30 rounded-10">
     <v-avatar class="mr-3 h-10 w-10" :src="avatar" />
     <div>
       <div class="flex flex-row relative">
@@ -9,7 +9,7 @@
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          class="w-8 text-gray-500 -mt-1 absolute right-0"
+          class="w-5 text-gray-500 -mt-1 absolute right-0"
         >
           <path
             stroke-linecap="round"
@@ -37,7 +37,7 @@
         </svg>
       </div>
       <div>
-        <p class="text-gray-600 font-medium tracking-wide">
+        <p class="text-gray-600 text-xs font-medium tracking-wide">
           {{ content }}
         </p>
       </div>

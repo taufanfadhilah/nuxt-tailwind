@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-cover w-28 h-40 rounded-lg mr-3 p-2 relative"
+    class="flex-grow-0 flex-shrink-0 bg-cover phone:w-col2 w-100 rounded-lg mr-3 p-2 relative"
     :style="{
       backgroundImage: 'url(' + image + ')',
     }"
